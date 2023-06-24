@@ -1,0 +1,23 @@
+{
+  "name": "sprint-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "devStart": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.gatech.edu/cs2340propp-kj-usman-dash-azeez/Sprint-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "proxy": "http://localhost:3000"
+}
